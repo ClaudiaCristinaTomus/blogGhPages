@@ -8,6 +8,7 @@
     padding-bottom:auto;
     border-bottom-left-radius: 80px 80px;
     font-family: 'Lato', sans-serif;
+    padding: 1rem 10rem 5rem 10rem;
     
   }
   
@@ -17,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom-left-radius: 80px 80px;
-    margin: 1rem 10rem 5rem 10rem;
+    
   }
   .textHero{
     margin: 5rem 10rem 5rem 10rem;
@@ -188,6 +189,9 @@
   
     .hamburger {
       display: block; /* Show hamburger menu on mobile */
+    }
+    .header{
+      padding: 1rem 2rem 5rem 2rem;
     }
   .container{
     margin: 3rem 2rem 0rem 2rem;
