@@ -1,0 +1,36 @@
+.footer {
+    margin: 10rem 0rem 0rem 0rem;
+    background-color: rgb(11, 11, 90);
+    border-top-right-radius: 80px 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem 25rem 5rem 10rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.title{
+    font-weight: 500;
+    font-size:19px;
+}
+.subtitles {
+    margin-top: 2rem;
+    line-height: 34px;
+    
+}
+
+@media (max-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:5rem 2rem;
+    }
+
+    .col1 {
+        margin-bottom: 2rem;
+    }
+    .title{
+        margin-top:2.8rem;
+    }
+}

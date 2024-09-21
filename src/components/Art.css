@@ -1,0 +1,61 @@
+.art {
+    margin: 28rem 0rem 5rem 0rem;
+    background-color: rgb(11, 11, 90);
+    border-bottom-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    font-family: 'Lato', sans-serif;
+}
+
+.allArt {
+    display: flex;
+    max-width: 100%;
+   
+}
+
+.rightArt {
+    margin: 4rem 15rem 2rem 12rem;
+}
+
+.titleArt {
+    text-align: center;
+    font-size: 34px;
+    color: white;
+}
+
+.paragraphArt {
+    text-align: left;
+    margin-top: 4rem;
+    color: white;
+    line-height: 24px;
+}
+
+@media (max-width: 768px) {
+    .art {
+        margin: -13rem 0rem 5rem 0rem;
+    }
+
+    .allArt {
+        position: relative;
+    }
+
+    .leftArt svg {
+        width: 100%;
+        position: absolute;
+        bottom: 425px;
+    }
+
+    .rightArt {
+        margin: 18rem 1rem 5rem 1rem;
+    }
+
+    .allArt {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paragraphArt {
+        text-align: center;
+    }
+
+}
